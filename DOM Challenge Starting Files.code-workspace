@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "../../WebDev_Projects/DOM Challenge Starting Files"
+		},
+		{
+			"path": "../../WebDev_Projects/Simon Game Challenge Starting Files"
+		},
+		{
+			"path": "../../WebDev_Projects/Simon Game Challenge Completed"
+		},
+		{
+			"path": "../../WebDev_Projects/2.2 Native Modules"
+		},
+		{
+			"path": "../../WebDev_Projects/BACKEND/2.2 Native Modules"
+		},
+		{
+			"path": "../../WebDev_Projects/BACKEND/nodejs/2.3 NPM"
+		},
+		{
+			"path": "../../WebDev_Projects/BACKEND/nodejs/2.4 QR Code Project"
+		},
+		{
+			"path": "../../WebDev_Projects/BACKEND/my_express_server"
+		},
+		{
+			"path": "../../WebDev_Projects/BACKEND/my_first_express_server"
+		},
+		{
+			"path": "../../WebDev_Projects/BACKEND/Calculator"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

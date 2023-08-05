@@ -1,0 +1,272 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'poppins';
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Desining Navigation Bar */
+
+.navbar{
+    height: 90px;
+    width: 100%;
+    background-color:  #02274e;
+    display: inline-flex;
+    
+}
+.navbar h2{
+    padding: 1rem;
+    margin-left: 3rem;
+    width: 30%;
+    color: white;
+    font-size: 40px;
+    width: 40%;
+}
+
+.nav ul li{
+    margin-left: 80px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration:none;
+    margin-top: 1.5rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.nav li a:hover{
+
+    color: #6ab3fb;
+    font-size: 1.1rem;
+
+}
+
+.nav a{
+    text-decoration:none;
+    color: white;
+}
+
+/* Design for Hero Section */
+
+.hero{
+    display: inline-flex;
+    height: 100vh;
+    width: 100%;
+    margin-top: -1rem;
+    font-size: 40px;
+    color: white;
+}
+
+.hero h2{
+    margin: 4rem;
+    width: 40%;
+}
+
+.hero-section{
+    background-color: black;
+}
+
+.hero-section span{
+    color: #0e509c;
+}
+.hero img{
+    margin-top: 3rem;
+    height: 600px;
+    width: 700px;
+}
+
+/* Desiging Skills Section */
+.skills-section{
+    background-color: black;
+}
+.Skills{
+    display: flex;
+    color: white;
+    margin-left: 5rem;
+    margin-top: -4.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Skills img{
+    margin-left: -4rem;
+}
+
+.space{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width:65% ;
+}
+
+.skills-section li{
+    list-style-type: none;
+}
+
+.skills-section h2{
+    margin-bottom: 1rem;
+}
+
+.skills-section .S{
+    margin-left: 1rem;
+}
+
+.skills-section .S{
+    color:#cecaca;
+}
+
+.S{
+    margin-bottom: 0.5rem;
+}
+
+/* Designing Education */
+
+.Edu{
+    background-color: black;
+    color:white;
+}
+
+.edu-div{
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 5rem;
+    padding-bottom: 6rem;
+    
+}
+
+.Edu i{
+    margin-left: 4rem;
+    font-size: 100px;
+}
+
+.Edu H2{
+    font-size: 40px;
+}
+
+.edu-div li{
+    list-style-type: none;
+}
+
+.edu-div .S{
+    color: #cecaca;
+    margin-left: 1rem;
+}
+
+.edu-div .S{
+    
+}
+
+.edu-div h2{
+    margin-bottom: 1rem;
+}
+/* Desinging Projects Section */
+.projects{
+    background-color: black;
+    color: white;
+}
+
+.projects h1{
+    padding-top: 3rem;
+    margin-left: 4rem;
+    font-size: 40px;
+}
+
+.work-list{
+    display: grid;
+    padding-left: 4rem;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work{
+    
+    border-radius: 10px;
+    position:relative;
+    overflow: hidden;
+}
+
+.work img{
+    width: 80%;
+    border-radius: 10px;
+    display: block;
+    height: 500px;
+    transition: transform 0.5s;
+}
+
+.layer{
+    width: 66.5%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#02274e);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.layer a{
+    margin-top: 20px;
+    color: #02274e;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover img{
+   transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+/* Designing for Contact Section */
+.con-sec{
+    padding-top: 4rem;
+    background-color: black;
+    color: white;
+}
+
+.con{
+    display: inline-flex;
+}
+.con-sec h1{
+    margin: 4rem;
+    margin-left: 5rem;
+    font-size: 50px;
+}
+
+.con p i{
+    padding-right: 1rem;
+}
+
+.cons{
+    padding-top: 6rem;
+    text-align: center;
+    display: inline-flex;
+    column-gap: 3rem;
+}
